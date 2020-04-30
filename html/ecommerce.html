@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/ecommerce.css">
+    <title> Amazon-ia</title>
+</head>
+
+<body>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+    <!-- Barra de Menu e Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Amazon-ia</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Sobre </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Produtinhos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"> Celulares </a>
+                        <a class="dropdown-item" href="#"> Notebooks </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#"> Computadores </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Contato </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Carrossel com produtos -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="../img/Primeiro Slide.jpg" alt="Primeiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../img/Segundo Slide.png" alt="Segundo Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="../img/terceiro Slide.jpg" alt="Terceiro Slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!-- Cards com produtos -->
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-header"> Iphone </div>
+            <img class="card-img-center" src="../img/iphone final.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title"> Iphone Xr </h5>
+                <p class="card-text"> O celular iPhone XR conta com o processador Apple A12 Bionic e armazenamento de 64
+                    GB, 128 GB e 256 GB.
+                    O celular ainda conta com certificação IP67, suporte a duas linhas de celular e sistema de
+                    reconhecimento facial Face ID</p>
+                <p class="card-text"><small class="text-muted"> Atualizados 3 minutos atrás </small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header"> Notebook </div>
+            <img class="card-img-center" src="../img/note dell.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title"> Notebook Dell Inspiron </h5>
+                <p class="card-text"> Notebook Dell Inspiron i15-3583-A30P Intel Core i7 - 8GB 2TB 15,6” Placa de Vídeo
+                    2GB Windows 10.
+                    A linha Inspiron da Dell combina produtividade e desempenho, se tornando perfeito para o seu dia a
+                    dia.
+                    Seja para os estudos ou trabalho, edição de fotos e vídeos,
+                    o processador Intel Core i7 em conjunto com os 8GB de memória RAM otimizam qualquer tipo de processo
+                    para não te deixar na mão.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header"> Desktop </div>
+            <img class="card-img-center" src="../img/xps-8930.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title"> Desktop Dell XPS 8930 </h5>
+                <p class="card-text"> Otimize sua experiência virtual!
+                    Para ter uma experiência de desktop ainda mais potente e pronta para realidade virtual escolha a
+                    configuração a partir da placa de video NVIDIA® GeForce® GTX™1060.
+                    Assim, você pode experimentar o que há de mais recente na tecnologia de realidade virtual.
+                    Além disso, configurações especiais atendem às especificações recomendadas para garantir uma
+                    experiência de realidade virtual ideal com headsets HTC Vive ou Oculus Rift.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <form>
+        <div class="col-md-6 offset-md-3">
+            <div class="form-group row">
+                <label for="inputNome3" class="col-sm-2 col-form-label"> Nome </label>
+                <div class="col-sm-10">
+                    <input type="nome" class="form-control" id="inputNome3" placeholder="Nome">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputCpf3" class="col-sm-2 col-form-label"> CPF </label>
+                <div class="col-sm-10">
+                    <input type="CPF" class="form-control" id="inputCpf3" placeholder="CPF">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label"> Email </label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label"> Senha </label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Senha">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputAdress3" class="col-sm-2 col-form-label"> Endereço </label>
+                <div class="col-sm-10">
+                    <input type="Endereço" class="form-control" id="inputAdress3" placeholder="Endereço">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputAdress3" class="col-sm-2 col-form-label"> Sexo </label>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1"> Masculino </label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2"> Feminino </label>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputAdress3" class="col-sm-2 col-form-label"> Estado </label>
+                <select class="custom-select">
+                    <option selected> Estado </option>
+                    <option value="0"> -- </option>
+                    <option value="1"> Acre </option>
+                    <option value="2"> São Paulo </option>
+                    <option value="3"> Minas Gerais </option>
+                    <option value="4"> Rio de Janeiro </option>
+                    <option value="5"> Espirito Santo </option>
+                    <option value="6"> Mato Grosso </option>
+                    <option value="7"> Mato Grosso do Sul </option>
+                    <option value="8"> Rio Grande Do Sul </option>
+                    <option value="9"> Rio Grande Do Norte </option>
+                    <option value="10"> Goias </option>
+                    <option value="11"> Amazonas </option>
+                    <option value="12"> Paraná </option>
+                    <option value="13"> Santa Catarina </option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary"> Cadastro </button>
+        </div>
+    </form>
+</body>
+
+</html>
